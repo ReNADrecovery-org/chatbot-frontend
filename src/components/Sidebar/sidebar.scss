@@ -1,0 +1,38 @@
+
+.chat-box {
+    position: relative;
+    margin: auto;
+    height: 750px;
+    width: 90%;
+  }
+  .cs-main-container {
+    border: none;
+  }
+  .cs-chat-container .cs-message-input {
+    border: none;
+  }
+  .cs-message-input__tools:first-child .cs-button:last-child {
+    display: none;
+  }
+  .cs-message-input__content-editor-wrapper {
+    height: 5em;
+    border-radius: 3em;
+    padding: 1.8em 2em;
+    border: 1px solid #E1E1E1;
+    background-color: #FFFFFF;
+  }
+  .cs-message-input__content-editor-container {
+    background: #FFFFFF;
+  }
+  .cs-message__content {
+    background-color: #F8F8F8;
+  }
+  .cs-message-input__tools:last-child .cs-button:last-child {
+    margin: auto;
+  }
+  .cs-message-input__content-editor {
+    background-color: #FFFFFF;
+  }
+  .cs-message--outgoing .cs-message__content {
+    background-color: #F8F8F8;
+  }
